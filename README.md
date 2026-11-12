@@ -1,32 +1,8 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# SOWELL - Website Demo Thương Mại Điện Tử 
+## 🚀 Hướng dẫn cách chạy website trên Local
+Để khởi chạy dự án trên máy tính của bạn, hãy làm theo các bước sau:
+1. **Mở Terminal tại thư mục gốc của dự án** (thư mục chứa file `package.json`).
+2. Chạy lệnh sau để cài đặt các thư viện phụ thuộc:
+   npm install
+3. Sau khi cài đặt hoàn tất, chạy lệnh để khởi động máy chủ phát triển (development server): npm run dev
+4. click chuột trái vào đường dẫn local hiển thị trên terminal: http://localhost:5173/ để mở và trải nghiệm trực tiếp website trên trình duyệt.
